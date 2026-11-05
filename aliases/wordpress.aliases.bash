@@ -1,4 +1,7 @@
-# WordPress npm aliases
+# shellcheck shell=bash
+about-alias 'WordPress shortcuts for local dev envs'
+url "https://github.com/philipjohn/bash-it-custom"
+
 alias wp='npm run wp -- '
 alias wpcf='npm run wp cache flush'
 alias wprf='npm run wp rewrite flush'
